@@ -15,7 +15,7 @@ import java.net.URL;
 import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends AppCompatActivity {
-    String url = "http://atm201605.appspot.com/h";
+    String url = "https://datacenter.taichung.gov.tw/swagger/OpenData/81d8e495-b746-4be1-9adc-487a97bcf53f";
 
     public class dowjson extends AsyncTask<String, Void, String> {
 
